@@ -13,3 +13,6 @@ Practiced team Git collaboration using VS Code and Git commands: feature branche
 
 ## Week 3
 Containerized a duplicate-IP checker with Docker and published the image to Docker Hub.
+
+## Week 4
+Built a network config pipeline: an intent file plus a generator, containerized, with CI/CD that regenerates and validates the configs on every change.
