@@ -22,4 +22,5 @@ Called the GitHub REST API from Python to read my repo and create an issue.
 
 ## Week 6: IP Plan Check Pipeline
 What I built: I built a Python checker that handles our IP address plan, all packaged in Docker. It runs through GitHub Actions on every push and opens a GitHub issue through the API if the plan has any errors.
+
 Repo: https://github.com/Sp2icy/ip-plan-check
