@@ -19,3 +19,7 @@ Built a network config pipeline: an intent file plus a generator, containerized,
 
 ## Week 5
 Called the GitHub REST API from Python to read my repo and create an issue.
+
+## Week 6: IP Plan Check Pipeline
+**What I built:** A Python checker for our IP address plan, packaged in Docker, run by GitHub Actions on every push, that opens a GitHub issue through the API when the plan has errors.
+**Repo:** https://github.com/Sp2icy/ip-plan-check
