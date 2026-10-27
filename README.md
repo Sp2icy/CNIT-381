@@ -30,4 +30,4 @@ This week I first started by configuring OSPF manually, then ran a provided ansi
 
 ## Week 8: OSPF by Hand, Then Automated
 
-This week I first started by configuring OSPF manually, then ran a provided ansible playbook that automated the process. Then wrote a playbook that was used back up the configs. This week I learned how to use Cisco CML to create my own emulated lab enviroment and use Ansible to automate configs.
+This week I first started by configuring OSPF manually, then ran a provided Ansible playbook that automated the process. Then wrote a playbook that was used to backup the configs. This week I learned how to use Cisco CML to create my own emulated lab enviroment and use Ansible to automate configs.
