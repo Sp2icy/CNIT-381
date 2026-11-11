@@ -37,3 +37,10 @@ This week I first started by configuring OSPF manually, then ran a provided Ansi
 This week I built a network topology in Cisco CML with two routers, a switch, and an Ubuntu server. I configured the management IP addresses and SSH manually, then used Ansible playbooks to automate loopback interfaces, EIGRP routing, login banners, and configuration backups.
 
 I learned how to create an Ansible inventory, organize playbooks, and verify that my automation works correctly. I also learned about idempotency and how running a playbook multiple times should not make unnecessary configuration changes.
+
+## Week 10: Ansible on a CSR with the DEVASC VM
+
+What I did: moved from CML to the DEVASC VM and a CSR1000v, set up the hosts
+inventory and ansible.cfg, backed up the config, and configured IPv6.
+
+What I learned: I learned how to use Ansible with a virtual router on VirtualBox. As well as how to back up configurations, and configure IPv6 addresses automatically.
