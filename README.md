@@ -50,3 +50,9 @@ What I did: enabled RESTCONF on the switch, then read and changed its config
 with Postman and a Python script. 
 
 What I learned: I learned the basics of using RESTCONF to view and modify configurations through HTTP requests on physical hardware. I also learned how to use Postman and Python to send GET and PUT requests.
+
+## Week 11 — AI Network Agent Web App
+
+What I built: A Streamlit web app on my CML Ubuntu node — an AI agent page that configures R1, R2, and SW1 from plain-English requests, and a live dashboard that shows interface status pulled from the devices.
+
+What I learned: This lab taught me how to use AI for network automation tasks through the use of an MCP server, an AI model, and a web interface. I got to see firsthand how an AI agent can take plain English requests and execute them as commands on network devices. Additionally, while the lab used Anthropic's API as a baseline, I used Google's Gemini API to complete the lab.
