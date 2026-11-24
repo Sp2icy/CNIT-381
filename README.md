@@ -24,35 +24,31 @@ Called the GitHub REST API from Python to read my repo and create an issue.
 What I built: I built a Python checker that handles our IP address plan, all packaged in Docker. It runs through GitHub Actions on every push and opens a GitHub issue through the API if the plan has any errors.
 
 Repo: https://github.com/Sp2icy/ip-plan-check
-## Week 8: OSPF by Hand, Then Automated
 
+## Week 8: OSPF by Hand, Then Automated
 This week I first started by configuring OSPF manually, then ran a provided ansible playbook that automated the process. Then wrote a playbook that was used back up the configs. This week I learned how to use Cisco CML to create my own emulated lab enviroment and use Ansible to automate configs.
 
 ## Week 8: OSPF by Hand, Then Automated
-
 This week I first started by configuring OSPF manually, then ran a provided Ansible playbook that automated the process. Then wrote a playbook that was used to backup the configs. This week I learned how to use Cisco CML to create my own emulated lab enviroment and use Ansible to automate configs.
 
 ## Week 9: Build a Network and Automate It End to End
-
 This week I built a network topology in Cisco CML with two routers, a switch, and an Ubuntu server. I configured the management IP addresses and SSH manually, then used Ansible playbooks to automate loopback interfaces, EIGRP routing, login banners, and configuration backups.
 
 I learned how to create an Ansible inventory, organize playbooks, and verify that my automation works correctly. I also learned about idempotency and how running a playbook multiple times should not make unnecessary configuration changes.
 
 ## Week 10: Ansible on a CSR with the DEVASC VM
-
 What I did: moved from CML to the DEVASC VM and a CSR1000v, set up the hosts
 inventory and ansible.cfg, backed up the config, and configured IPv6.
 
 What I learned: I learned how to use Ansible with a virtual router on VirtualBox. As well as how to back up configurations, and configure IPv6 addresses automatically.
 
-# Week 11: RESTCONF on a 3650 Switch
+## Week 11: RESTCONF on a 3650 Switch
 What I did: enabled RESTCONF on the switch, then read and changed its config
 with Postman and a Python script. 
 
 What I learned: I learned the basics of using RESTCONF to view and modify configurations through HTTP requests on physical hardware. I also learned how to use Postman and Python to send GET and PUT requests.
 
-## Week 11 — AI Network Agent Web App
-
+## Week 12 — AI Network Agent Web App
 What I built: A Streamlit web app on my CML Ubuntu node — an AI agent page that configures R1, R2, and SW1 from plain-English requests, and a live dashboard that shows interface status pulled from the devices.
 
 What I learned: This lab taught me how to use AI for network automation tasks through the use of an MCP server, an AI model, and a web interface. I got to see firsthand how an AI agent can take plain English requests and execute them as commands on network devices. Additionally, while the lab used Anthropic's API as a baseline, I used Google's Gemini API to complete the lab.
